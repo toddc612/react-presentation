@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+import SlideOne from './SlideOne';
+
 
 export default class Slider extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class Slider extends Component {
   render() {
     return (
       <div className="slider">
-        Slider here
+        <SlideOne/>
       </div>
     );
   }
